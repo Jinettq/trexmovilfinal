@@ -89,13 +89,13 @@ function setup(){
   img_game_over.visible = false
 
   //---cambias la posicion de sprite de reinicio
-  img_reinicio = createSprite(width/2 , 50 + heigth/2)
+  img_reinicio = createSprite(width/2 , 50 + height/2)
   img_reinicio.scale =0.05
   img_reinicio.addAnimation("reinicio", reinicio)
   img_reinicio.visible = false
 
   img_game_over.scale = 0.5
-  img_reinicio.scale = 0.3
+  img_reinicio.scale = 0.1
 }
 
 
